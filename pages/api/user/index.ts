@@ -29,6 +29,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         if (e instanceof JsonWebTokenError) return res.status(400).end("invalid accessToken");
         if (e instanceof NotFoundError) return res.status(403).end("Invalid email or password");
         if (e instanceof Error) return res.status(500).end(e.message);
+        return res.status(500).end("Internal Server Error");
       }
     }
     // 유저 로그인하기
@@ -47,6 +48,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         console.error(e);
         if (e instanceof NotFoundError) return res.status(403).end("Invalid email or password");
         if (e instanceof Error) return res.status(500).end(e.message);
+        return res.status(500).end("Internal Server Error");
       }
     }
     default:
