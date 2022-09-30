@@ -148,6 +148,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mobily/ts-belt@npm:^3.13.1":
+  version: 3.13.1
+  resolution: "@mobily/ts-belt@npm:3.13.1"
+  checksum: 507417608ddf4ecadf6f4f5dbdc32083000727d1a7a3604dc22670861f617d8bbb53622348649eab36d4d5c81b4331da7c4a3707b610866ebfadea3af27c60de
+  languageName: node
+  linkType: hard
+
 "@motionone/animation@npm:^10.12.0":
   version: 10.14.0
   resolution: "@motionone/animation@npm:10.14.0"
@@ -4083,6 +4090,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-tailwindcss-template@workspace:."
   dependencies:
+    "@mobily/ts-belt": ^3.13.1
     "@prisma/client": ^4.3.1
     "@tailwindcss/typography": ^0.5.7
     "@types/jsonwebtoken": ^8.5.9
