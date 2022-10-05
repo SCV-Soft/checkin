@@ -22,7 +22,13 @@ const Reader: NextPage = () => {
       />
       <p className="text-xl text-blue-500">Data is ...</p>
       <br />
-      <p className="p-2 border">{data}</p>
+      <p className="p-2 mb-4 border">{data}</p>
+      <p>
+        reference :{" "}
+        <a href="https://www.npmjs.com/package/react-qr-reader" className="hover:text-blue-500 hover:underline">
+          https://www.npmjs.com/package/react-qr-reader
+        </a>
+      </p>
     </div>
   );
 };
