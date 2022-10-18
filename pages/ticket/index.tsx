@@ -5,7 +5,7 @@ const Ticket: NextPage = () => {
   // TODO GET EVENT INFO FROM URL QUERY
   const title: string = "행사 이름";
 
-  const QRvalue = "Hello SCVSoft!";
+  const QRvalue = "dummyid12345678";
 
   return (
     <div className="container mx-auto flex h-screen w-4/5 flex-col items-center px-4 py-8 lg:w-3/4">
