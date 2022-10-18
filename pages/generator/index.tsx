@@ -4,12 +4,12 @@ import QRCode from "react-qr-code";
 const Generator: NextPage = () => {
   const value = "Hello SCVSoft!";
   return (
-    <div className="container px-4 py-8 mx-auto">
+    <div className="container mx-auto px-4 py-8">
       <h1 className="text-xl">QR Generator</h1>
       <h2>
-        Next QR code has text - <span className="text-blue-500">"{value}"</span>
+        Next QR code has text - <span className="text-blue-500">&quot;{value}&quot;</span>
       </h2>
-      <div className="p-4 bg-white">
+      <div className="bg-white p-4">
         <QRCode value={value} />
       </div>
       <p>
